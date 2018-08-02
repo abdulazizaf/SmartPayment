@@ -77,20 +77,10 @@
 
 							<ul class="norightborder m-0 p-0">
 								<li class="current"><a href="index.html"><div>Home</div></a></li>
-								<li><a href="index.html"><div>About</div></a>
-									<ul>
-										<li class="current"><a href="index.html"><div>Home</div></a></li>
-										<li><a href="Aboutus.aspx"><div>About</div></a></li>
-										<li><a href="index.html"><div>Classes</div></a></li>
-										<li><a href="index.html"><div>Gallery</div></a></li>
-										<li><a href="index.html"><div>Pricing</div></a></li>
-										<li><a href="index.html"><div>Contact</div></a></li>
-									</ul>
-								</li>
-								<li><a href="index.html"><div>Classes</div></a></li>
-								<li><a href="index.html"><div>Gallery</div></a></li>
-								<li><a href="index.html"><div>Pricing</div></a></li>
-								<li><a href="index.html"><div>Contact</div></a></li>
+								<li class="current"><a href="index.html"><div>Account</div></a></li>
+                                <li class="current"><a href="index.html"><div>Point Of Sale</div></a></li>
+                                <li class="current"><a href="index.html"><div>Contact Us</div></a></li>
+                                <li class="current"><a href="index.html"><div>About Us</div></a></li>
 							</ul>
 
 						</nav>
@@ -117,27 +107,9 @@
 
 			<div class="swiper-container swiper-parent">
 				<div class="swiper-wrapper">
-					<div class="swiper-slide dark" style="background-image: url('demos/gym/images/slider/1.jpg'); background-size: cover">
+					<div class="swiper-slide dark" style="background-image: url('images/HHPages_BG.jpg'); background-size: cover">
 						<div class="container clearfix">
-							<div class="slider-caption slider-caption-center">
-								<h2>You Earn Your Body.</h2>
-								<div class="d-md-flex divcenter d-none categories-lists mt-5" style="width: 60%;">
-									<div class="mr-auto">
-										<span class="list-group-item h6 t300 py-2 px-1 nobg border-0"><i class="icon-line-plus mr-2"></i>No Monthly Commitment</span>
-										<span class="list-group-item h6 t300 py-2 px-1 nobg border-0"><i class="icon-line-plus mr-2"></i>Locker Facility</span>
-										<span class="list-group-item h6 t300 py-2 px-1 nobg border-0"><i class="icon-line-plus mr-2"></i>1 Day Free Pass</span>
-										<span class="list-group-item h6 t300 py-2 px-1 nobg border-0"><i class="icon-line-plus mr-2"></i>Sauna &amp; Steam Available</span>
-									</div>
-									<div class="">
-										<span class="list-group-item h6 t300 py-2 px-1 nobg border-0"><i class="icon-line-plus mr-2"></i>1 User Valid</span>
-										<span class="list-group-item h6 t300 py-2 px-1 nobg border-0"><i class="icon-line-plus mr-2"></i>Shower Room</span>
-										<span class="list-group-item h6 t300 py-2 px-1 nobg border-0"><i class="icon-line-plus mr-2"></i>Free WiFi Access</span>
-									</div>
-								</div>
-								<div class="d-flex justify-content-center align-items-center divcenter categories-lists mt-4">
-									<a href="#" class="button button-rounded button-large nott ml-4 align-self-center">Reserve Now</a>
-								</div>
-							</div>
+						
 						</div>
 						<div class="video-wrap" style="position: absolute; top: 0; left: 0; height: 100%; z-index:1;">
 							<div class="video-overlay" style="background: rgba(0,0,0,0.5);"></div>

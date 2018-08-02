@@ -3767,6 +3767,7 @@
     <Content Include="js\plugins\jquery.twitterfeed.js" />
     <Content Include="js\plugins\jquery.validation.js" />
     <Content Include="js\plugins\jquery.youtube.js" />
+    <Content Include="Login.aspx" />
     <Content Include="smartpaycss\css\fonts.css" />
     <Content Include="style.css" />
     <Content Include="tinymce\changelog.txt" />
@@ -4059,6 +4060,13 @@
     <Compile Include="Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site1.Master.cs">
       <DependentUpon>Site1.Master</DependentUpon>
@@ -4067,6 +4075,7 @@
     <Compile Include="Site1.Master.designer.cs">
       <DependentUpon>Site1.Master</DependentUpon>
     </Compile>
+    <Compile Include="SqlInterface.cs" />
     <Compile Include="WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
