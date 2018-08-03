@@ -44,6 +44,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=4.1.7.429, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\AjaxControlToolkit.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
@@ -69,6 +73,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Aboutus.aspx" />
+    <Content Include="Account.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="css\animate.css" />
     <Content Include="css\bootstrap-rtl.css" />
@@ -3768,6 +3773,9 @@
     <Content Include="js\plugins\jquery.validation.js" />
     <Content Include="js\plugins\jquery.youtube.js" />
     <Content Include="Login.aspx" />
+    <Content Include="pay.aspx" />
+    <Content Include="PointOfSale.aspx" />
+    <Content Include="signup.aspx" />
     <Content Include="smartpaycss\css\fonts.css" />
     <Content Include="style.css" />
     <Content Include="tinymce\changelog.txt" />
@@ -4032,8 +4040,9 @@
     <Content Include="tinymce\jscripts\tiny_mce\utils\form_utils.js" />
     <Content Include="tinymce\jscripts\tiny_mce\utils\mctabs.js" />
     <Content Include="tinymce\jscripts\tiny_mce\utils\validate.js" />
-    <Content Include="Web.config" />
-    <Content Include="WebForm1.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Aboutus.aspx.cs">
@@ -4042,6 +4051,13 @@
     </Compile>
     <Compile Include="Aboutus.aspx.designer.cs">
       <DependentUpon>Aboutus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account.aspx.cs">
+      <DependentUpon>Account.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account.aspx.designer.cs">
+      <DependentUpon>Account.aspx</DependentUpon>
     </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
@@ -4067,7 +4083,28 @@
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
+    <Compile Include="pay.aspx.cs">
+      <DependentUpon>pay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pay.aspx.designer.cs">
+      <DependentUpon>pay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PointOfSale.aspx.cs">
+      <DependentUpon>PointOfSale.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PointOfSale.aspx.designer.cs">
+      <DependentUpon>PointOfSale.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="signup.aspx.cs">
+      <DependentUpon>signup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="signup.aspx.designer.cs">
+      <DependentUpon>signup.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Site1.Master.cs">
       <DependentUpon>Site1.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -4076,13 +4113,6 @@
       <DependentUpon>Site1.Master</DependentUpon>
     </Compile>
     <Compile Include="SqlInterface.cs" />
-    <Compile Include="WebForm1.aspx.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="WebForm1.aspx.designer.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="css\fonts\font-icons-snapchat.eot" />
@@ -4125,6 +4155,7 @@
     <Folder Include="App_Data\" />
     <Folder Include="include\twitter\cache\" />
     <Folder Include="Models\" />
+    <Folder Include="PostPhoto\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
